@@ -1,0 +1,100 @@
+body {
+  background: #FFF5EB;
+  font-family: 'PingFang SC', 'Microsoft YaHei', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 400px;
+  margin: 40px auto;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+  padding: 32px 24px 24px 24px;
+}
+
+.title {
+  color: #FE9C37;
+  text-align: center;
+  margin-bottom: 32px;
+  font-size: 2rem;
+  letter-spacing: 2px;
+}
+
+.form-group {
+  margin-bottom: 22px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  color: #FE9C37;
+  font-weight: bold;
+}
+
+input[type="text"], select {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #FE9C37;
+  border-radius: 6px;
+  font-size: 1rem;
+  background: #FFF5EB;
+  color: #333;
+  box-sizing: border-box;
+}
+
+input[type="text"]:focus, select:focus {
+  outline: none;
+  border-color: #FE9C37;
+  background: #fff7f0;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 12px 0;
+  background: #FE9C37;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.submit-btn:hover {
+  background: #ffb05c;
+}
+
+.flatpickr-day.disabled, .flatpickr-day.notAllowed {
+  background: #eee !important;
+  color: #bbb !important;
+  cursor: not-allowed !important;
+}
+
+.nav-bar {
+  text-align: center;
+  margin-bottom: 18px;
+}
+
+.nav-link {
+  color: #FE9C37;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 0 8px;
+}
+
+.nav-link.active {
+  text-decoration: underline;
+}
+
+.nav-divider {
+  color: #FE9C37;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #eee;
+  margin: 0;
+} 

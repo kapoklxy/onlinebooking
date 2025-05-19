@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <title>承庚工作室 - 预约</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+</head>
+<body>
+  <nav class="nav-bar">
+    <a href="index.html" class="nav-link active">预约</a>
+    <span class="nav-divider">|</span>
+    <a href="contact.html" class="nav-link">联系我们</a>
+  </nav>
+  <div class="container">
+    <h1 class="title">承庚工作室</h1>
+    <form id="booking-form">
+      <div class="form-group">
+        <label for="date">选择日期</label>
+        <div style="display:flex;align-items:center;gap:8px;">
+          <input type="text" id="date" name="date" readonly placeholder="请选择日期" />
+          <span id="weekday-label" style="color:#FE9C37;font-weight:bold;"></span>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="time">选择时间段</label>
+        <select id="time" name="time">
+          <option value="">请选择时间段</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="name">预约人姓名</label>
+        <input type="text" id="name" name="name" placeholder="请输入姓名" />
+      </div>
+      <div class="form-group">
+        <label for="phone">手机号</label>
+        <input type="text" id="phone" name="phone" placeholder="请输入手机号" />
+      </div>
+      <button type="submit" class="submit-btn">提交预约</button>
+    </form>
+  </div>
+  <footer style="text-align:center;margin:24px 0 0 0;">
+    <a href="contact.html" style="color:#FE9C37;text-decoration:underline;">联系我们</a>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+  <script src="js/main.js"></script>
+</body>
+</html> 

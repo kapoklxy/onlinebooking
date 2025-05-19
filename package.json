@@ -1,0 +1,7 @@
+{
+  "name": "chenggeng-booking",
+  "version": "1.0.0",
+  "description": "承庚工作室线上预约系统，静态前端版，支持Cloudflare Pages自动部署。",
+  "author": "kapoklxy",
+  "license": "MIT"
+} 

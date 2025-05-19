@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <title>联系我们 - 承庚工作室</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <style>
+    .contact-card { background: #fff; border-radius: 12px; box-shadow: 0 2px 12px rgba(0,0,0,0.06); padding: 24px; margin: 40px auto; max-width: 400px; }
+    .contact-row { display: flex; align-items: flex-start; margin-bottom: 18px; }
+    .contact-row img.icon { width: 32px; height: 32px; margin-right: 12px; }
+    .contact-row .info { flex: 1; }
+    .contact-row .info span { color: #FE9C37; font-weight: bold; }
+    .contact-row .info .text { color: #333; user-select: text; }
+    .qr-list { display: flex; flex-direction: column; gap: 0; margin-top: 0; }
+    .qr-block { display: flex; align-items: flex-start; padding: 18px 0; }
+    .qr-block img.icon { width: 32px; height: 32px; margin-right: 12px; margin-top: 8px; }
+    .qr-block .qr-info { flex: 1; }
+    .qr-block .qr-label { color: #FE9C37; font-weight: bold; margin-bottom: 8px; }
+    .qr-block .qr-img { margin-top: 4px; }
+    .qr-block .qr-img img { width: 110px; height: 110px; border-radius: 8px; background: #FFF5EB; }
+    .qr-block.shop .qr-img img { width: 140px; height: 140px; }
+    hr { border: none; border-top: 1px solid #eee; margin: 0; }
+    .nav-bar { text-align:center; margin-bottom: 18px; }
+    .nav-link { color: #FE9C37; text-decoration: none; font-weight: bold; margin: 0 8px; }
+    .nav-link.active { text-decoration: underline; }
+    .nav-divider { color: #FE9C37; }
+  </style>
+</head>
+<body style="background:#FFF5EB;">
+  <nav class="nav-bar">
+    <a href="index.html" class="nav-link">预约</a>
+    <span class="nav-divider">|</span>
+    <a href="contact.html" class="nav-link active">联系我们</a>
+  </nav>
+  <div class="contact-card">
+    <div class="contact-row">
+      <img class="icon" src="../images/icons-contact/location.png" alt="地址">
+      <div class="info">
+        <span>工作室地址：</span>
+        <div class="text">广东省深圳市罗湖区黄贝路1002号华丽东村21栋二单元402室</div>
+      </div>
+    </div>
+    <hr />
+    <div class="contact-row">
+      <img class="icon" src="../images/icons-contact/phone.png" alt="电话">
+      <div class="info">
+        <span>客服电话：</span>
+        <div class="text">137 1426 6177</div>
+      </div>
+    </div>
+    <hr />
+    <div class="qr-list">
+      <div class="qr-block">
+        <img class="icon" src="../images/icons-contact/wechatlogo.png" alt="客服微信">
+        <div class="qr-info">
+          <div class="qr-label">客服微信二维码：</div>
+          <div class="qr-img"><img src="../images/qrcodes/contact-QR.png" alt="客服微信二维码"></div>
+        </div>
+      </div>
+      <hr />
+      <div class="qr-block">
+        <img class="icon" src="../images/icons-contact/OA-icon.png" alt="公众号">
+        <div class="qr-info">
+          <div class="qr-label">承庚工作室公众号：</div>
+          <div class="qr-img"><img src="../images/qrcodes/OAOR.png" alt="公众号二维码"></div>
+        </div>
+      </div>
+      <hr />
+      <div class="qr-block shop">
+        <img class="icon" src="../images/icons-contact/shop-icon.png" alt="微店">
+        <div class="qr-info">
+          <div class="qr-label">扫码进店：</div>
+          <div class="qr-img"><img src="../images/qrcodes/shopOR.png" alt="微店二维码"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html> 
